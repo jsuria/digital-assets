@@ -7,10 +7,9 @@ import { TokenRecordsState } from '@/store/model.tokenrecordstate'
 const getDomain = () => {
     // Localhost
     if(document.location.hostname == 'localhost'){
-      return 'http://localhost/cms'
+      return ''
     } else {
-      // Staging/live
-      return `https://${document.location.hostname}`
+      return ''
     }
 }
 
