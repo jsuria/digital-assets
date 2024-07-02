@@ -1,15 +1,4 @@
-# DTI Registry Search (Frontend) #
+# Digital Assets Registry #
 
-Deployed as an application in a Wordpress page (iframe)
-
-### Setup ###
-
-* Clone repository, run npm i.
-* Type 'npm run dev' to run application for development.
-
-### Build and deploy ###
-
-* Type 'npm run build' to create static build of application.
-* Manually upload to remote folder (public_html/registry-search) on same server as WP marketing website.
-
-### Tests ###
+Frontend application using Wordpress Graphql endpoints
+DISCLAIMER: Currently for research and reference purposes only. 
